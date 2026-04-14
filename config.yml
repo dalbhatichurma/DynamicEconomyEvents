@@ -1,0 +1,44 @@
+# =============================================
+# DynamicEconomyEvents Configuration
+# =============================================
+
+events:
+  # Minutes between random events
+  interval-minutes: 15
+  # How long each event lasts (minutes)
+  duration-minutes: 5
+  # Enable/disable automatic random events
+  random-events-enabled: true
+
+  # Chance weights for each event (higher = more likely)
+  chances:
+    gold-rush: 25
+    recession: 20
+    market-boom: 25
+    tax-event: 15
+    inflation: 10
+    deflation: 5
+
+# Economy multipliers per event
+multipliers:
+  gold-rush: 2.0
+  recession: 0.5
+  market-boom: 1.5
+  tax-rate: 0.10
+  inflation-rate: 1.3
+  deflation-rate: 0.7
+
+# Display settings
+display:
+  bossbar-enabled: true
+  actionbar-enabled: true
+  broadcast-enabled: true
+
+# Messages
+messages:
+  prefix: "&6[&eEconomy&6] &r"
+  event-start: "&aA new economy event has started!"
+  event-end: "&cThe economy event has ended!"
+  no-event: "&7No economy event is currently active."
+  reloaded: "&aConfiguration reloaded successfully!"
+  no-permission: "&cYou don't have permission to do that!"
