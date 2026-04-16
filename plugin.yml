@@ -2,7 +2,7 @@ name: DynamicEconomyEvents
 version: 1.0.0
 main: com.dynamiceconomy.DynamicEconomyEvents
 api-version: '1.21'
-author: YourName
+author: MathTeacher
 description: Live economy system with random global events
 softdepend: [Vault]
 
